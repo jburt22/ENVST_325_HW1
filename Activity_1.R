@@ -12,12 +12,24 @@ myData <- data.frame(col1 = c(4,3),
 
 myVec*10
 
+#--Activity 1---
 #Prompt 1
 snow_depth <- c(2.5, 3.5, 4.5)
 snow_depth_cm = 2.54*snow_depth
 
-
+#Prompt 2
 Peaks <- data.frame(name = c("Mount Haystack", "Mount Skylight", "Dix Mountain", "Gray Peak"),
                     elevation = c(4960, 4926, 4857, 4840),
                     climb_ascent = c(3570, 4265, 2800, 4178),
                     trip_length = c(17.8, 17.9, 13.2, 16))
+
+#---HW start---
+#HW 1
+
+#1
+0.3048*Peaks[,2]
+
+
+#3
+Highest_peak <- Peaks[1,]
+Highest_peak
